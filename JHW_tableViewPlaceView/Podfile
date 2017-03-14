@@ -1,0 +1,7 @@
+platform :ios, ‘7.0’
+
+target 'JHW_tableViewPlaceView' do
+ pod 'AFNetworking', '~> 2.5.0'
+pod 'ReactiveCocoa', '~> 2.5'
+
+end

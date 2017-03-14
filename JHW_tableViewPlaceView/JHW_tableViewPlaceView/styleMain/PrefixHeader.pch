@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  JHW_tableViewPlaceView
+//
+//  Created by JHW on 17/3/14.
+//  Copyright © 2017年 JHW. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import <objc/runtime.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "NSObject+JHWChangeMethod.h"
+#import "UITableView+JHWPlaceHolder.h"
+#import "JHWPlaceHolderView.h"
+
+#endif
+
+#endif /* PrefixHeader_pch */
